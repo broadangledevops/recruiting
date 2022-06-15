@@ -9,6 +9,22 @@ namespace apiexample.Tests
         [TestMethod]
         public void TestMethod1()
         {
+            int x = 1;
+            int y = 2;
+            int z = x + y;
+
+            Assert.AreEqual(3,z);
         }
+
+        [TestMethod]
+        public void TestMethod2()
+        {
+            int x = 1;
+            int y = 2;
+            int z = x + y;
+
+            Assert.AreEqual(4, z);
+        }
+
     }
 }
